@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wellpro"
+    }
+  },
+  "defaultProject": "wellpro",
+  "cli": {
+    "analytics": false
+  }
 }
