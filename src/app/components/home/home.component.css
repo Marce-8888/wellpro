@@ -12,9 +12,7 @@
 }
 
 .ctn-home{
-  /* background-color:#d2d2d269; */
   width: 80%;
-  /* height: auto; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -28,7 +26,6 @@
   width: 70%;
   height: 167px;
   margin: 200px 0 30px 0;
-  padding:30px;
   display: flex;
 }
 
@@ -37,8 +34,19 @@
   border-radius: 30px;
   width: 35%;
   height: 409px;
-  /* margin-right: 20px; */
   margin: 30px 20px 30px 0;
+  color:black;
+  padding:30px;
+}
+
+.ctn-rules h3{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.ctn-prize h3{
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .ctn-prize{
@@ -48,6 +56,7 @@
   height: 409px;
   margin-left: 20px;
   margin: 30px 0px 30px 20px;
+  padding:30px;
 }
 
 .ctn-team{
@@ -56,6 +65,7 @@
   width: 70%;
   height: 652px;
   margin: 30px 0 30px 0;
+  padding:30px;
 }
 
 button{
@@ -74,32 +84,87 @@ button:focus{
 
 
 h1{
-  font-size: 2.25em;
+  font-size: 36px;
+  font-weight:700;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 36px;
+  font-weight:400;
 }
 
 h3{
-  font-size: 1.56em;
+  font-size: 24px;
+  font-weight:400;
 }
 
 h4{
-  font-size: 1.25em;
+  font-size: 20px;
+  font-weight:700;
 }
 
-h5{
-  font-style: 700;
+img{
+  width: 90px;
 }
 
 .ctn-img{
-  width: 30px;
-  height: 30px;
-  background: rgb(205, 205, 205);
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ctn-text{
   display: flex;
   flex-direction: column;
+  width: 75%;
+  justify-content: center;
+}
+
+.forS{
+  display: flex;
+}
+
+.teamS{
+  display: flex;
+}
+
+.ctn-text1{
+  display: flex;
+}
+
+.ctn-text-wellys{
+  background: #EEEEEE;
+  border-radius: 30px;
+  width: 350px;
+  height: 88px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.gift{
+  display: flex;
+}
+
+.ctn-img-prize1{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ctn-img-prize2{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn-img-prize1 img{
+  width: 50px;
+}
+
+.title{
+  margin-bottom:30px ;
 }
