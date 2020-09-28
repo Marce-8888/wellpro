@@ -1,0 +1,42 @@
+.bg-home {
+    background-color: #EFF2FF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ctn-home {
+    background-color: #d2d2d269;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ctn-challenge {
+    border: 5px solid #EBB908;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 70%;
+    height: 167px;
+    margin-top: 200px;
+}
+
+.ctn-planification {
+    width: 100%;
+    background: #FFFFFF;
+    height: 1400px;
+    border-radius: 30px;
+    margin-top: 200px;
+}
+
+.challenge {
+    width: 82px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #343434;
+}
