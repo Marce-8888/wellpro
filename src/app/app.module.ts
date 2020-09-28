@@ -8,6 +8,11 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { TodoComponent } from './components/todo/todo.component';
+<<<<<<< Updated upstream
+=======
+import { StartComponent } from './components/start/start.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+>>>>>>> Stashed changes
 
 const route: Routes = [
   {
@@ -30,6 +35,10 @@ const route: Routes = [
   {
     path: 'planification',
     component: TodoComponent
+  },
+  {
+    path: 'navbar',
+    component: NavbarComponent
   }
 ]
 
@@ -40,7 +49,13 @@ const route: Routes = [
     LoginComponent,
     RegisterComponent,
     PerfilComponent,
+<<<<<<< Updated upstream
     TodoComponent
+=======
+    TodoComponent,
+    StartComponent,
+    NavbarComponent
+>>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
