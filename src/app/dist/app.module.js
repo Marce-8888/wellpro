@@ -16,17 +16,12 @@ var login_component_1 = require("./components/login/login.component");
 var register_component_1 = require("./components/register/register.component");
 var perfil_component_1 = require("./components/perfil/perfil.component");
 var todo_component_1 = require("./components/todo/todo.component");
-var start_component_1 = require("./components/start/start.component");
 var navbar_component_1 = require("./components/navbar/navbar.component");
 var route = [
     {
         path: '',
         pathMatch: 'full',
         redirectTo: 'welcome'
-    },
-    {
-        path: 'welcome',
-        component: start_component_1.StartComponent
     },
     {
         path: 'login',
@@ -61,7 +56,6 @@ var AppModule = /** @class */ (function () {
                 register_component_1.RegisterComponent,
                 perfil_component_1.PerfilComponent,
                 todo_component_1.TodoComponent,
-                start_component_1.StartComponent,
                 navbar_component_1.NavbarComponent
             ],
             imports: [
