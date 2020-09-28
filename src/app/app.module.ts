@@ -8,17 +8,12 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { TodoComponent } from './components/todo/todo.component';
-import { StartComponent } from './components/start/start.component';
 
 const route: Routes = [
   {
     path: '',
     pathMatch: 'full',
     redirectTo: 'welcome'
-  },
-  {
-    path: 'welcome',
-    component: StartComponent
   },
   {
     path: 'login',
@@ -45,8 +40,7 @@ const route: Routes = [
     LoginComponent,
     RegisterComponent,
     PerfilComponent,
-    TodoComponent,
-    StartComponent
+    TodoComponent
   ],
   imports: [
     BrowserModule,

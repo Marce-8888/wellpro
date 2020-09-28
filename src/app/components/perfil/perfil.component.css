@@ -1,9 +1,11 @@
 *{
     font-size: 1rem;
+    color: #ffffff;
 }
 
 h1{
     font-size: 2.25em;
+    font-weight: 400;
   }
   
   h2{
@@ -21,6 +23,23 @@ h1{
   h5{
     font-style: 700;
   }
+  p{
+      font-size: 1em;
+      font-weight: 400;
+      margin: 0 0 0.5em 0;
+  }
+
+  
+.ctn-perfil{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+/* ------------------------------------------------------Logo */
 
 .bg-logo{
     background-color: #EFF2FF;
@@ -44,18 +63,17 @@ h1{
     width: 6rem;
 }
 
+/* ------------------------------------------------------Perfil */
+
 .ctn-info{
     background-color: #5A78E6;
 }
 
-.ctn-perfil{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    height: auto;
-}
-
 .ctn-me{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 30.75rem;
     background-color: #5A78E6;
     border-radius: 0px 50px 0px 0px;
@@ -64,6 +82,46 @@ h1{
 .bg-me{
     background-color: #ffffff;
 }
+
+.avatar{
+    width: 7.1rem;
+    height: 7.1rem;
+    background-image: url("../../../assets/IMG/img-perfil/avatar-perfil.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 9.375rem;
+}
+
+.state, .prog, .reward{
+    width: 80%;
+    margin: 0.5em 0;
+}
+
+.ctn-pro{
+    background-color: #5A78E6;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.3em;
+    height: 2.125rem;
+}
+
+.ctn-porcent{
+    background-color: #52C9F3;
+    width: 75%;
+}
+
+.line{
+    display: inline;
+    margin-right: 0.4em;
+}
+
+i.line{
+    font-size: 1.5em;
+}
+
+/* ------------------------------------------------------Equipo */
 
 .ctn-team{
     height: 14.75rem;
@@ -74,6 +132,8 @@ h1{
 .bg-team{
     background-color: #5A78E6;
 }
+
+/* ------------------------------------------------------Bienestar */
 
 .ctn-well{
     height: 30.75rem;
