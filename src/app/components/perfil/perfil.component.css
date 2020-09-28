@@ -35,6 +35,8 @@ h1{
     flex-direction: column;
     width: 20%;
     height: auto;
+    position: absolute;
+    top: 0;
 }
 
 /* ------------------------------------------------------Logo */
