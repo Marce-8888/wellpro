@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  inf: any;
-  info: Array<{}> = [
+  info: any;
+  infoRules: Array<{}> = [
     {
       "img":1,
       "text":"Realizar la tarea dentro del horario de trabajo"
@@ -26,6 +26,52 @@ export class HomeComponent implements OnInit {
       "text":"Para ganar el premio, deben completar el desafío dentro del tiempo. Sino, igualmente deben completar la tarea, pero no habrá premio."
     },
   ]
+
+  infoPrize: Array<{}> = [
+    {
+      "img":"5.000 wellys",
+      "text":"Para cada integrante del grupo que termine el jueves, y el día viernes libre"
+    },
+    {
+      "img":"3.000 wellys",
+      "text":"Responder las estrategias que usaste en el chech out"
+    }
+  ]
+
+
+  infoTeam: Array<{}> = [
+    {
+      "img":"1",
+      "name":"Super Reasercher",
+      "text":"Líder"
+    },
+    {
+      "img":"2",
+      "name":"Tú",
+      "text":"Tarea: Encuestar a usuario de avión"
+    },
+    {
+      "img":"3",
+      "name":"Almendra poderosa",
+      "text":"Tarea: Encuestar a usuario de metro"
+    },
+    {
+      "img":"4",
+      "name":"Power Reasercher",
+      "text":"Tarea: Encuestar a usuario de buses"
+    },
+    {
+      "img":"5",
+      "name":"Survey Woman",
+      "text":"Tarea: Encuestar a usuario de bicicletas"
+    },
+    {
+      "img":"6",
+      "name":"Pepe el investigador",
+      "text":"Tarea: Encuestar a usuario de automóvil"
+    },
+  ]
+
 
 
 
