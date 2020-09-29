@@ -1,7 +1,7 @@
 <div class="bg-home">
   <div class="ctn-home">
 
-    <div class="ctn-challenge">
+    <section class="ctn-challenge">
       <div class="ctn-img">
         <img src="../../../assets/IMG/Home/Desafío.png" alt="">
       </div>
@@ -9,26 +9,28 @@
         <h1>Desafio semana 21 al 25 septiembre</h1>
         <h3>Hacer investigación de ususarios de sistema de transporte</h3>
       </div>
-    </div>
+    </section>
 
-    <div class="ctn-rules">
+    <section class="ctn-rules">
       <div class="title">
         <h3>Sigue las reglas</h3>
       </div>
       <div class="forS" *ngFor="let rules of infoRules">
-        <ul> {{rules.img}}</ul>
+        <div class="rules-img">
+          <img src={{rules.img}}>
+        </div>
         <p> {{rules.text}}</p>
       </div>
-    </div>
+    </section>
 
-    <div class="ctn-prize">
+    <section class="ctn-prize">
       <div class="title">
         <h3>Logra los premios</h3>
       </div>
 
       <div class="gift">
         <div class="ctn-img-prize1">
-          <img src="../../../assets/IMG/Home/Diamante.png" alt="">
+          <img src="../../../assets/IMG/Home/Diamante.png" >
         </div>
         <div class="ctn-img-prize2">
           <h3>5.000 wellys</h3>
@@ -49,28 +51,48 @@
 
 
         <div class="ctn-text-wellys">
-          <h4 style="font-weight: 700;">¡No te quedes sin tus Wellys!</h4>
-          <h4>entrega dentro del plazo</h4>
+          <h4>¡No te quedes sin tus Wellys!</h4>
+          <h4  style="font-weight: 400;">entrega dentro del plazo</h4>
         </div>
 
-      </div>
+      </section>
 
-      <div class="ctn-team">
+      <section class="ctn-team">
         <div class="title">
-          <h2>Tu equipo</h2>
+          <img src="../../../assets/IMG/Home/Team.png" >
+          <h3>Tu equipo</h3>
         </div>
 
         <div class="teamS" *ngFor="let team of infoTeam">
-          <h4> {{team.img}}</h4>
-          <div >
+          <div class="team-img">
+            <img src={{team.img}}>
+          </div>
+
+          <div class="team-info">
             <h4> {{team.name}}</h4>
             <p> {{team.text}}</p>
           </div>
+
+         <div class="team-bar">
+            <div class="ctn-bar">
+              <div [ngStyle]="{'width.%':width}" class="holi"></div>
+            </div>
+
+            <div class="ctn-bar-num">
+              <h4>{{team.num}}</h4>
+            </div>
+         </div>
+
         </div>
 
+      </section>
+
+      <div class="btn-blue">
+        <button>Comenzar el desafío</button>
       </div>
-    <button>Comenzar el desafío</button>
   </div>
+
+
 </div>
 
 
