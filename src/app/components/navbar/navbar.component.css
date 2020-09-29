@@ -12,13 +12,18 @@
 .navbar {
   background-color:#5E55FC;
   justify-content: center;
-  margin-left: 280px;
-  margin-right: 280px;
   border-radius: 20px;
+  margin-left: 250px;
   display: flex;
   flex-wrap: wrap;
 }
 
 img {
-  height: 25px;
+  height: 40px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.modal-body, .modal-header{
+  background-color: #56A6FB;
 }
