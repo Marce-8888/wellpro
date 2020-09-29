@@ -53,7 +53,7 @@ export class HomeComponent implements OnInit {
       "name":"Tú",
       "text":"Tarea: Encuestar a usuario de avión",
       "num":"45%",
-      "progress":70
+      "progress":60
     },
     {
       "img":"../../../assets/IMG/Home/team3.png",

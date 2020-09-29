@@ -3,6 +3,9 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatInputModule} from '@angular/material/input'
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -14,6 +17,7 @@ import { TodoComponent } from './components/todo/todo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { from } from 'rxjs';
+import { LeaderHomeComponent } from './components/leader-home/leader-home.component';
 
 
 
@@ -53,15 +57,22 @@ const route: Routes = [
     RegisterComponent,
     PerfilComponent,
     TodoComponent,
-    NavbarComponent
+    NavbarComponent,
+    LeaderHomeComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(route),
     BrowserAnimationsModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatInputModule
   ],
-  providers: [],
+  providers: [
+    MatDatepickerModule,
+    MatNativeDateModule 
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
