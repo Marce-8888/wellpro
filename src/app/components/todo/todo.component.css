@@ -1,3 +1,10 @@
+* {
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: #343434;
+}
+
 .bg-home {
     background-color: #EFF2FF;
     width: 100%;
@@ -12,6 +19,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ctn-challenge {
@@ -21,22 +29,146 @@
     width: 70%;
     height: 167px;
     margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ctn-ctxt {
+    width: 20%;
+    height: 70%;
+    /*background: tomato;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.ctn-pointsandtime {
+    width: 80%;
+    /*background: #1708eb;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.points {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn-count {
+    width: 30%;
+    /*background: green;*/
 }
 
 .ctn-planification {
-    width: 100%;
+    width: 70%;
     background: #FFFFFF;
     height: 1400px;
     border-radius: 30px;
-    margin-top: 200px;
 }
 
-.challenge {
-    width: 82px;
-    height: 28px;
-    font-family: Roboto;
+.ctn-image1 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img1 {
+    width: 70px;
+}
+
+.img2 {
+    width: 31px;
+    height: 32px;
+    left: 573px;
+    top: 220px;
+}
+
+.img3 {
+    width: 30px;
+    height: 30px;
+    left: 800px;
+    top: 221px;
+}
+
+.img4 {
+    width: 227px;
+    height: 51px;
+    left: 1080px;
+    top: 202px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.txt1 p {
+    width: 417px;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    color: #343434;
+}
+
+.txt2 p {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.txt3 p {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.txt4 p {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.meeting {
+    background: tomato;
+}
+
+.week {
+    background: blue;
+}
+
+.progress {
+    background: green;
+}
+
+.wp {
+    background: maroon;
+}
+
+.faceandpercentage {
+    background: magenta;
 }
