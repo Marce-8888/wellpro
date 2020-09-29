@@ -43,7 +43,7 @@ const route: Routes = [
     path: 'navbar',
     component: NavbarComponent
   }
-]
+];
 
 @NgModule({
   declarations: [
