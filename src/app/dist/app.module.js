@@ -10,6 +10,8 @@ exports.AppModule = void 0;
 var platform_browser_1 = require("@angular/platform-browser");
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
+var animations_1 = require("@angular/platform-browser/animations");
+var slide_toggle_1 = require("@angular/material/slide-toggle");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./components/home/home.component");
 var login_component_1 = require("./components/login/login.component");
@@ -61,6 +63,8 @@ var AppModule = /** @class */ (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 router_1.RouterModule.forRoot(route),
+                animations_1.BrowserAnimationsModule,
+                slide_toggle_1.MatSlideToggleModule
             ],
             providers: [],
             bootstrap: [app_component_1.AppComponent]
