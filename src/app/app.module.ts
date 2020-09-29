@@ -14,6 +14,7 @@ import { TodoComponent } from './components/todo/todo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { from } from 'rxjs';
+import { LeaderHomeComponent } from './components/leader-home/leader-home.component';
 
 
 
@@ -53,7 +54,8 @@ const route: Routes = [
     RegisterComponent,
     PerfilComponent,
     TodoComponent,
-    NavbarComponent
+    NavbarComponent,
+    LeaderHomeComponent
   ],
   imports: [
     BrowserModule,
