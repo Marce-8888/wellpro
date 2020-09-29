@@ -39,51 +39,61 @@ export class HomeComponent implements OnInit {
   ]
 
 
+
   infoTeam: Array<{}> = [
     {
       "img":"../../../assets/IMG/Home/team1.png",
       "name":"Super Reasercher",
       "text":"Líder",
-      "num":"45%"
+      "num":"45%",
+      "progress":45
     },
     {
       "img":"../../../assets/IMG/Home/team2.png",
       "name":"Tú",
       "text":"Tarea: Encuestar a usuario de avión",
-      "num":"45%"
+      "num":"45%",
+      "progress":70
     },
     {
       "img":"../../../assets/IMG/Home/team3.png",
       "name":"Almendra poderosa",
       "text":"Tarea: Encuestar a usuario de metro",
-      "num":"45%"
+      "num":"45%",
+      "progress":40
     },
     {
       "img":"../../../assets/IMG/Home/team4.png",
       "name":"Power Reasercher",
       "text":"Tarea: Encuestar a usuario de buses",
-      "num":"45%"
+      "num":"45%",
+      "progress":90
     },
     {
       "img":"../../../assets/IMG/Home/team5.png",
       "name":"Survey Woman",
       "text":"Tarea: Encuestar a usuario de bicicletas",
-      "num":"45%"
+      "num":"45%",
+      "progress": 65
     },
     {
       "img":"../../../assets/IMG/Home/team6.png",
       "name":"Pepe el investigador",
       "text":"Tarea: Encuestar a usuario de automóvil",
-      "num":"45%"
+      "num":"45%",
+      "progress":85
     },
   ]
 
-  width:any;
+
+
+  // width:any;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.width! = 75;
+
+    // this.width! = 25;
   }
 
 }

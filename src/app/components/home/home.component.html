@@ -58,8 +58,11 @@
       </section>
 
       <section class="ctn-team">
+
         <div class="title">
-          <img src="../../../assets/IMG/Home/Team.png" >
+          <div class="ctn-team-img">
+            <img src="../../../assets/IMG/Home/Team.png">
+          </div>
           <h3>Tu equipo</h3>
         </div>
 
@@ -75,11 +78,11 @@
 
          <div class="team-bar">
             <div class="ctn-bar">
-              <div [ngStyle]="{'width.%':width}" class="holi"></div>
+              <div [ngStyle]="{'width.%':team.progress}" class="progress"></div>
             </div>
 
             <div class="ctn-bar-num">
-              <h4>{{team.num}}</h4>
+              <h4>{{team.progress}}%</h4>
             </div>
          </div>
 
