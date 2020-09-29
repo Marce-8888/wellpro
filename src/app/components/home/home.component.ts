@@ -10,19 +10,19 @@ export class HomeComponent implements OnInit {
   info: any;
   infoRules: Array<{}> = [
     {
-      "img":1,
+      "img":"../../../assets/IMG/Home/Tiempo.png",
       "text":"Realizar la tarea dentro del horario de trabajo"
     },
     {
-      "img":2,
+      "img":"../../../assets/IMG/Home/Fecha.png",
       "text":"Responder las estrategias que usaste en el chech out"
     },
     {
-      "img":3,
+      "img":"../../../assets/IMG/Home/Corazon.png",
       "text":"Mantener una conducta de autocuidado"
     },
     {
-      "img":4,
+      "img":"../../../assets/IMG/Home/sad.png",
       "text":"Para ganar el premio, deben completar el desafío dentro del tiempo. Sino, igualmente deben completar la tarea, pero no habrá premio."
     },
   ]
@@ -39,45 +39,61 @@ export class HomeComponent implements OnInit {
   ]
 
 
+
   infoTeam: Array<{}> = [
     {
-      "img":"1",
+      "img":"../../../assets/IMG/Home/team1.png",
       "name":"Super Reasercher",
-      "text":"Líder"
+      "text":"Líder",
+      "num":"45%",
+      "progress":45
     },
     {
-      "img":"2",
+      "img":"../../../assets/IMG/Home/team2.png",
       "name":"Tú",
-      "text":"Tarea: Encuestar a usuario de avión"
+      "text":"Tarea: Encuestar a usuario de avión",
+      "num":"45%",
+      "progress":70
     },
     {
-      "img":"3",
+      "img":"../../../assets/IMG/Home/team3.png",
       "name":"Almendra poderosa",
-      "text":"Tarea: Encuestar a usuario de metro"
+      "text":"Tarea: Encuestar a usuario de metro",
+      "num":"45%",
+      "progress":40
     },
     {
-      "img":"4",
+      "img":"../../../assets/IMG/Home/team4.png",
       "name":"Power Reasercher",
-      "text":"Tarea: Encuestar a usuario de buses"
+      "text":"Tarea: Encuestar a usuario de buses",
+      "num":"45%",
+      "progress":90
     },
     {
-      "img":"5",
+      "img":"../../../assets/IMG/Home/team5.png",
       "name":"Survey Woman",
-      "text":"Tarea: Encuestar a usuario de bicicletas"
+      "text":"Tarea: Encuestar a usuario de bicicletas",
+      "num":"45%",
+      "progress": 65
     },
     {
-      "img":"6",
+      "img":"../../../assets/IMG/Home/team6.png",
       "name":"Pepe el investigador",
-      "text":"Tarea: Encuestar a usuario de automóvil"
+      "text":"Tarea: Encuestar a usuario de automóvil",
+      "num":"45%",
+      "progress":85
     },
   ]
 
 
 
+  // width:any;
 
   constructor() { }
 
   ngOnInit(): void {
+
+    // this.width! = 25;
   }
 
 }
