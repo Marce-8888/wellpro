@@ -7,37 +7,40 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilComponent implements OnInit {
 
+  showModal:boolean=false;
+
   info: any;
   infoChat: Array<{}> = [
     {
-      "img":"../../../assets/IMG/Perfil/1.png",
-      "name":"Top Reasercher",
-      "icon":"../../../assets/IMG/Home/Tiempo.png",
+      img:'../../../assets/IMG/Perfil/1.png',
+      name:"Top Reasercher",
+      icon:'../../../assets/IMG/Perfil/pin.png',
     },
     {
-      "img":"../../../assets/IMG/Perfil/2.png",
-      "name":"Survey Woman",
+      img:'../../../assets/IMG/Perfil/2.png',
+      name:"Survey Woman",
     },
     {
-      "img":"../../../assets/IMG/Perfil/3.png",
-      "name":"Almendra poderosa",
-      "num": 3
+      img:'../../../assets/IMG/Perfil/3.png',
+      name:"Almendra poderosa",
+      icon:'../../../assets/IMG/Perfil/g3.png'
     },
     {
-      "img":"../../../assets/IMG/Perfil/4.png",
-      "name":"Pepe investigador",
-      "num": 2
+      img:'../../../assets/IMG/Perfil/4.png',
+      name:"Pepe investigador",
+      icon:'../../../assets/IMG/Perfil/g2.png'
     },
     {
-      "img":"../../../assets/IMG/Perfil/5.png",
-      "name":"Power Rasercher",
-      "num": 4
+      img:'../../../assets/IMG/Perfil/5.png',
+      name:"Power Rasercher",
+      icon:'../../../assets/IMG/Perfil/g4.png'
     }
-  ]
+  ];
+
+  
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

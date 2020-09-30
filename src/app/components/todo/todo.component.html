@@ -46,90 +46,93 @@
         </div>
 
         <div class="ctn-calendar1">
-          <div class="ctn-title">
-            <div class="reunion">
-              <img src="../../../assets/IMG/planification/reunion.png" alt="">
-            </div>
-            <div class="title">
-              <h4>Planificación de reuniones</h4>
-            </div>
-          </div>
-
-          <div class="ctn-dates">
-
-            <div class="dates">
-              <div class="ctn-info-dates">
-                <div class="ctn-status-dates">
-                  <div class="circle-reunion">
-
-                  </div>
+            <div class="ctn-title">
+                <div class="reunion">
+                    <img src="../../../assets/IMG/planification/reunion.png" alt="">
                 </div>
-                <div class="ctn-text-dates">
-                  <p>Reunión Equipo Diseño</p>
+                <div class="title">
+                    <h4>Planificación de reuniones</h4>
                 </div>
-                <div class="ctn-time-dates">
-                  <p>30 min.</p>
-                </div>
-              </div>
             </div>
 
-            <div class="dates">
-              <div class="ctn-info-dates">
-                <div class="ctn-status-dates">
-                  <div class="circle-reunion">
+            <div class="ctn-dates">
 
-                  </div>
+                <div class="cuadro1">
+                    <div class="dates">
+                        <div class="ctn-info-dates">
+                            <div class="ctn-status-dates">
+                                <div class="circle-reunion">
+
+                                </div>
+                            </div>
+                            <div class="ctn-text-dates">
+                                <p>Reunión Equipo Diseño</p>
+                            </div>
+                            <div class="ctn-time-dates">
+                                <p>30 min.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dates">
+                        <div class="ctn-info-dates">
+                            <div class="ctn-status-dates">
+                                <div class="circle-reunion">
+
+                                </div>
+                            </div>
+                            <div class="ctn-text-dates">
+                                <p>Reunión Equipo Diseño</p>
+                            </div>
+                            <div class="ctn-time-dates">
+                                <p>60 min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dates">
+                        <div class="ctn-info-dates">
+                            <div class="ctn-status-dates">
+                                <div class="circle-reunion-blue">
+
+                                </div>
+                            </div>
+                            <div class="ctn-text-dates">
+                                <p>Reunión Equipo Diseño</p>
+                            </div>
+                            <div class="ctn-time-dates">
+                                <p>30 min.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dates">
+                        <div class="ctn-info-dates">
+                            <div class="ctn-status-dates">
+                                <div class="circle-reunion-blue">
+
+                                </div>
+                            </div>
+                            <div class="ctn-text-dates">
+                                <p>Reunión Equipo Diseño</p>
+                            </div>
+                            <div class="ctn-time-dates">
+                                <p>15 min.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="ctn-text-dates">
-                  <p>Reunión Equipo Diseño</p>
+
+                <div class="ctn-calen">
+
+                    <mat-form-field appearance="fill" class="datepickerS">
+                        <mat-label>Calendario</mat-label>
+                        <input matInput [matDatepicker]="picker">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+
                 </div>
-                <div class="ctn-time-dates">
-                  <p>60 min</p>
-                </div>
-              </div>
+
             </div>
-            <div class="dates">
-              <div class="ctn-info-dates">
-                <div class="ctn-status-dates">
-                  <div class="circle-reunion">
-
-                  </div>
-                </div>
-                <div class="ctn-text-dates">
-                  <p>Reunión Equipo Diseño</p>
-                </div>
-                <div class="ctn-time-dates">
-                  <p>30 min.</p>
-                </div>
-              </div>
-            </div>
-            <div class="dates">
-              <div class="ctn-info-dates">
-                <div class="ctn-status-dates">
-                  <div class="circle-reunion">
-
-                  </div>
-                </div>
-                <div class="ctn-text-dates">
-                  <p>Reunión Equipo Diseño</p>
-                </div>
-                <div class="ctn-time-dates">
-                  <p>15 min.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="ctn-calendar">
-
-              <mat-form-field appearance="fill">
-                <mat-label>Choose a date</mat-label>
-                <input matInput [matDatepicker]="picker">
-                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-                <mat-datepicker #picker></mat-datepicker>
-              </mat-form-field>
-              
-            </div>
-          </div>
 
         </div>
 
@@ -137,22 +140,28 @@
 
             <div class="meeting">
                 <div class="ctn-image5">
-                    <img src="../../../assets/IMG/reunion.png" alt="">
+                    <img src="../../../assets/IMG/planification/semana.png" alt="">
                 </div>
                 <div class="txt5">
-                    <p>Planificación de reuniones</p>
-                </div>
-                <div class="ctn-image6">
-                    <img src="../../../assets/IMG/dropdown.png" alt="">
+                    <h4>Planificación de reuniones</h4>
                 </div>
             </div>
 
+            <div class="ctn-image6">
+              <img src="../../../assets/IMG/dropdown.png" alt="">
+          </div>
+
             <div class="week">
-                <div class="ctn-image7">
+              <div class="week1">
+                <p>Semana del</p>
+                <h4>21 al 25 de septiembre</h4>
+              </div>
+
+                <div class="week2">
+                  <div class="ctn-image7">
                     <img src="../../../assets//IMG/semana.png" alt="">
-                </div>
-                <div class="txt7">
-                    <p>Planificación semana</p>
+                  </div>
+                  <p>Progreso semanal</p>
                 </div>
             </div>
 
@@ -177,8 +186,29 @@
 
                 <div class="faceandpercentage">
                 </div>
-              </div>
             </div>
+        </div>
 
-  </div>
+    </div>
+</div>
+
+
+<mat-selection-list #shoes>
+    <mat-list-option *ngFor="let shoe of typesOfShoes">
+        {{shoe}}
+    </mat-list-option>
+</mat-selection-list>
+
+<p>
+    Tareas realizadas: {{shoes.selectedOptions.selected.length}}
+</p>
+
+<div class="team-bar">
+    <div class="ctn-bar">
+        <div [ngStyle]="{'width.%':shoes.selectedOptions.selected.length*20}" class="progress"></div>
+    </div>
+
+    <div class="ctn-bar-num">
+        <h4>{{shoes.selectedOptions.selected.length*20}}%</h4>
+    </div>
 </div>
