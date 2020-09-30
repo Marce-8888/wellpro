@@ -30,7 +30,7 @@
                 <div class="prog">
                     <p style="font-weight: 900;">Mi progreso semanal</p>
                     <div class="progress ctn-pro">
-                        <div class="progress-bar ctn-porcent" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar ctn-porcent" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
                     </div>
                 </div>
                 <div class="reward">
@@ -52,7 +52,7 @@
                         <img src="../../../assets/IMG/Perfil/team.svg" alt="">
                     </div>
                     <div class="ctn-icon-chat">
-                        <button><img src="../../../assets/IMG/Perfil/chat.svg" alt=""></button>
+                        <button (click)="showModal=!showModal"><img src="../../../assets/IMG/Perfil/chat.svg" alt=""></button>
                     </div>
                 </div>
             </div>
@@ -118,10 +118,13 @@
 
 <!----------------------------------------------------------- Modal -->
 
-<div class="bg-modal">
+<div class="bg-modal" *ngIf="showModal">
     <div class="modal-chat">
         <div class="header-modal">
-
+            <div class="ctn-title-modal"><h1>Mensajes</h1></div>
+            <div class="ctn-img-modal"><img src="../../../assets/IMG/Perfil/2.png" alt=""></div>
+            <div class="ctn-name-modal"><p>Survey Woman</p></div>
+            <div class="ctn-icon-close"><button (click)="showModal=!showModal"><img src="../../../assets/IMG/Perfil/Ocultar.png" alt=""></button></div>
         </div>
 
         <div class="ctn-info-modal">
@@ -133,12 +136,39 @@
                         <p>{{info.name}}</p>
                     </div>
                     <div class="ctn-notification">
-                        <img src={{info.img}}>
+                        <img src={{info.icon}}>
                     </div>
                 </div>
             </div>
 
             <div class="ctn-chat">
+                <div class="your-chat">
+                <p>Hola, estaba revisando tu encuesta. Está muy buena. 
+                        ¿Me podrías ayudar con la mía?, estoy teniendo alguna dificultades</p>
+                </div>
+                <div class="mychat">
+                    <p>Hola.Claro! cuéntame cuál es el problema.</p>
+                </div>
+                <div class="your-chat">
+                    <p>Es que es un problema complicado de explicar....</p>
+                </div>
+                <div class="mychat">
+                    <p>Entonces programemos una videollamada, para que lo conversemos y te pueda ayudar.</p>
+                </div>
+                <div class="your-chat">
+                    <p>Ya, perfecto. Yo te envío la invitación</p>
+                </div>
+                <div class="mychat">
+                    <p>OK. No hay problema. Nos vemos!:) </p>
+                </div>
+                <div class="ctn-write">
+                    <div class="write">
+                        <p>Escribe tu mensaje</p>
+                        <div class="ctn-ctn"><img class="icon-one" src="../../../assets/IMG/Perfil/voz.png" alt=""></div>
+                        <div class="ctn-ctn"><img class="icon-two" src="../../../assets/IMG/Perfil/enviar.png" alt=""></div>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -146,5 +176,6 @@
 
     </div>
 </div>
+
 
 </div>
