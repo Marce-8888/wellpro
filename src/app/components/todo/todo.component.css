@@ -167,6 +167,11 @@
     width: 70%;
     background: #FFFFFF;
     border-radius: 30px;
+    padding: 30px;
+}
+
+.ctn-planification h4{
+  margin-top: 15px;
 }
 
 .ctn-image1 {
@@ -200,6 +205,14 @@
     height: 51px;
     left: 1080px;
     top: 202px;
+}
+
+.ctn-image5{
+  width: 12%;
+}
+
+.ctn-image5 img{
+  width: 50px;
 }
 
 h1 {
@@ -253,7 +266,7 @@ p{
 }
 
 .meeting {
-    background: tomato;
+    display: flex;
 }
 
 .week {
