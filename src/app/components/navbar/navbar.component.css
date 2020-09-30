@@ -3,29 +3,31 @@
   box-sizing: border-box;
 }
 
-
-.body{
-  background-color:#EFF2FF;
-}
-
-
-.navbar {
+.navbar{
   background-color:#5A78E6;
   justify-content: center;
   border-radius: 20px;
-  margin-left: 250px;
+  margin-right: 10%;
   display: flex;
-  flex-wrap: wrap;
+  width: 55.8125rem;
 }
 
 img {
-height: 40px;
 justify-content: space-between;
-flex-wrap: wrap;
-margin-right: 20px;
 }
 
+.incon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em 0 0 0;
+}
 
+.ctn-img-icon{
+  display: flex;
+  justify-content: center;
+}
 
 .curva {
   border: 3px solid #5A78E6;
@@ -34,11 +36,20 @@ margin-right: 20px;
 
 .modal-header  {
   text-align: center !important ;
-
 }
 
 #modalAyuda-dialog {
   background-image: url(../../../assets/IMG/Menu/fondo-modal.png);
   background-size:  100% 344px;
   background-repeat: no-repeat;
+}
+
+.container-flex{
+  background-color: #EFF2FF;
+  margin-top: 0.8em;
+  width: 100%;
+  padding: 0;    
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
 }
