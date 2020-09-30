@@ -3,6 +3,38 @@
   box-sizing: border-box;
 }
 
+h1{
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 0.3em 0;
+}
+
+h3{
+  font-size: 1.56em;
+  font-weight: 700;
+  margin: 0 0 0.3em 0;
+}
+
+h4{
+  font-size: 1.25em;
+}
+
+h5{
+  font-style: 700;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 0 0.8em 0;
+}
+
+
 .navbar{
   background-color:#5A78E6;
   justify-content: center;
@@ -51,7 +83,7 @@ justify-content: space-between;
   background-color: #EFF2FF;
   margin-top: 0.8em;
   width: 100%;
-  padding: 0;    
+  padding: 0;
   display: flex;
   position: absolute;
   justify-content: flex-end;
@@ -61,4 +93,18 @@ justify-content: space-between;
   display: flex;
   justify-content: center;
   width: 80%;
+}
+
+.close {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.search {
+  background-color: #EFF2FF;
+  border-radius: 20px;
+  padding: 5px;
+  color: #A4A4A4;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
