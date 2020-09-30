@@ -19,12 +19,26 @@
 }
 
 img {
-  height: 40px;
+height: 40px;
 justify-content: space-between;
 flex-wrap: wrap;
 margin-right: 20px;
 }
 
-.modal-body, .modal-header{
-  background-color: #56A6FB;
+
+
+.curva {
+  border: 3px solid #5A78E6;
+  border-radius:20px
+}
+
+.modal-header  {
+  text-align: center !important ;
+
+}
+
+#modalAyuda-dialog {
+  background-image: url(../../../assets/IMG/Menu/fondo-modal.png);
+  background-size:  100% 344px;
+  background-repeat: no-repeat;
 }
