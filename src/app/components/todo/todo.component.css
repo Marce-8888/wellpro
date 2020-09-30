@@ -4,7 +4,6 @@
     font-family: Roboto;
 }
 
-
 .bg-home {
     background-color: #EFF2FF;
     width: 100%;
@@ -32,44 +31,43 @@
     align-items: center;
 }
 
-.ctn-calendar1{
-  margin-top: 0;
-  width: 70%;
-  height: 300px;
-  border-radius: 30px;
-  background: rgb(255, 255, 255);
-  padding: 30px
+.ctn-calendar1 {
+    margin-top: 0;
+    width: 70%;
+    height: 300px;
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    padding: 30px
 }
 
-.ctn-dates{
-  width: 100%;
-  height: 290px;
-  display: flex;
-  justify-content: space-between;
-  margin-top:50px;
+.ctn-dates {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-
-.cuadro1{
-  width: 60%;
-
+.cuadro1 {
+    width: 60%;
 }
 
-.ctn-calen{
-  width: 40%;
-  display: flex;
-  justify-content: center;
+.ctn-calen {
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
-.ctn-info-dates{
-  display: flex;
+.ctn-info-dates {
+    display: flex;
 }
 
-.ctn-status-dates{
-  width:10%;
-  display: flex;
-  justify-content: center;
+.ctn-status-dates {
+    width: 10%;
+    display: flex;
+    justify-content: center;
 }
+
 
 /*.datepickerS{
   width:160px;
@@ -78,50 +76,50 @@
   border-radius: 10px;
 }*/
 
-.circle-reunion{
-  width:15px;
-  height: 15px;
-  background:#D1D1D1;
-  border-radius: 100px;
+.circle-reunion {
+    width: 15px;
+    height: 15px;
+    background: #D1D1D1;
+    border-radius: 100px;
 }
 
-.circle-reunion-blue{
-  width:15px;
-  height: 15px;
-  background: #10ADE4;
-  border-radius: 100px;
+.circle-reunion-blue {
+    width: 15px;
+    height: 15px;
+    background: #10ADE4;
+    border-radius: 100px;
 }
 
-.ctn-text-dates{
-  width:60%;
+.ctn-text-dates {
+    width: 60%;
 }
 
-.ctn-time-dates{
-  width:30%;
+.ctn-time-dates {
+    width: 30%;
 }
 
-.ctn-time-dates p{
-  font-weight: 400;
+.ctn-time-dates p {
+    font-weight: 400;
 }
 
-.ctn-title{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  height: auto;
+.ctn-title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: auto;
 }
 
-.title h4{
-  margin-top: 15px;
-}
-.reunion{
-  width: 12%;
+.title h4 {
+    margin-top: 15px;
 }
 
-.reunion img{
-  width: 50px;
+.reunion {
+    width: 12%;
 }
 
+.reunion img {
+    width: 50px;
+}
 
 .ctn-ctxt {
     width: 14%;
@@ -132,18 +130,18 @@
     text-align: center;
 }
 
-.ctn-txtandimages{
-  width: 56%;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10px;
+.ctn-txtandimages {
+    width: 56%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 .ctn-count {
-  width: 30%;
-  height: 45%;
+    width: 30%;
+    height: 45%;
 }
 
 .ctn-pointsandtime {
@@ -183,24 +181,23 @@
 
 .ctn-image1 img {
     width: 70px;
-
 }
 
-.ctn-image2 img{
+.ctn-image2 img {
     width: 31px;
     height: 32px;
     left: 573px;
     top: 220px;
 }
 
-.ctn-image3 img{
+.ctn-image3 img {
     width: 30px;
     height: 30px;
     left: 800px;
     top: 221px;
 }
 
-.ctn-image4 img{
+.ctn-image4 img {
     width: 227px;
     height: 51px;
     left: 1080px;
@@ -236,8 +233,8 @@ h4 {
     font-weight: 700;
 }
 
-p{
-  font-weight: 700;
+p {
+    font-weight: 700;
 }
 
 .txt1 p {
@@ -285,6 +282,34 @@ p{
     background: magenta;
 }
 
-.txt4{
-  margin-left:10px;
+.txt4 {
+    margin-left: 10px;
+}
+
+.team-bar {
+    width: 44%;
+    display: flex;
+}
+
+.team-bar h4 {
+    color: #2045D0;
+}
+
+.ctn-bar {
+    height: 30px;
+    width: 85%;
+    border: 4px solid #5A78E6;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+.ctn-bar-num {
+    width: 15%;
+    text-align: center;
+}
+
+.progress {
+    height: 22px;
+    background: #52C9F3;
+    border-radius: 32px 0 0 32px;
 }
