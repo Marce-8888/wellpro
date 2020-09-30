@@ -13,7 +13,7 @@ export class PerfilComponent implements OnInit {
   infoChat: Array<{}> = [
     {
       img:'../../../assets/IMG/Perfil/1.png',
-      name:"Top Reasercher",
+      name:"Top Researcher",
       icon:'../../../assets/IMG/Perfil/pin.png',
     },
     {
@@ -32,7 +32,7 @@ export class PerfilComponent implements OnInit {
     },
     {
       img:'../../../assets/IMG/Perfil/5.png',
-      name:"Power Rasercher",
+      name:"Power Researcher",
       icon:'../../../assets/IMG/Perfil/g4.png'
     }
   ];
