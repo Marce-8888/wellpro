@@ -2,11 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import {MatDatepickerModule} from '@angular/material/datepicker';
-import {MatNativeDateModule} from '@angular/material/core';
-import {MatInputModule} from '@angular/material/input';
-import {MatListModule} from '@angular/material/list';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -14,11 +10,19 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { TodoComponent } from './components/todo/todo.component';
-
 import { NavbarComponent } from './components/navbar/navbar.component';
-
-import { from } from 'rxjs';
 import { LeaderHomeComponent } from './components/leader-home/leader-home.component';
+import { from } from 'rxjs';
+
+
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatInputModule} from '@angular/material/input';
+import {MatListModule} from '@angular/material/list';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 
@@ -69,7 +73,11 @@ const route: Routes = [
     MatDatepickerModule,
     MatNativeDateModule,
     MatInputModule,
-    MatListModule
+    MatListModule,
+    MatChipsModule,
+    MatIconModule,
+    MatCheckboxModule,
+    FormsModule
   ],
   providers: [
     MatDatepickerModule,
