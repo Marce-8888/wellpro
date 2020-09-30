@@ -177,5 +177,55 @@
     </div>
 </div>
 
+</div>
 
+<!-- -------------------------------------------------------Modal checkin -->
+
+<div class="bg-checkin" *ngIf="showCheckin">
+    <div class="modal-checkin">
+        <div class="ctn-title-checkin">
+            <h2>Hola Ale Power</h2>
+            <h4>Bienvenida a</h4>
+            <img src="../../../assets/IMG/Perfil/Logo.png" width="156px">
+        </div>
+        <div class="ctn-memojies">
+            <div class="ctn-how">
+                <h3>¿Cómo te sientes hoy?</h3>
+            </div>
+            <div class="ctn-imgs-animo">
+                <div class="ctn-animo">
+                    <div class="animo-img"><img src="../../../assets/IMG/Perfil/feliz.png"></div>
+                    <p>Feliz</p>
+                </div>
+                <div class="ctn-animo">
+                    <div class="animo-img"><img src="../../../assets/IMG/Perfil/entusiasmada.png"></div>
+                    <p>Entusiasmad@</p>
+                </div>
+                <div class="ctn-animo">
+                    <div class="animo-img"><img src="../../../assets/IMG/Perfil/normal.png"></div>
+                    <p>Normal</p>
+                </div>
+                <div class="ctn-animo">
+                    <div class="animo-img"><img src="../../../assets/IMG/Perfil/desanimada.png"></div>
+                    <p>Desanimad@</p>
+                </div>
+                <div class="ctn-animo">
+                    <div class="animo-img"><img src="../../../assets/IMG/Perfil/bloqueada.png"></div>
+                    <p>Bloquead@</p>
+                </div>
+            </div>
+        </div>
+        <div class="ctn-bajada-checkin">
+            <div class="ctn-text-bajada">
+                <h4>Identificar tu estado hará que sumes</h4>
+                <i class="far fa-gem line"></i>
+                <h4 style="font-weight: 700;">100 wellys</h4>
+            </div>
+            <div class="ctn-btn-bajada">
+                <button (click)="showCheckin=!showCheckin">Comenzar jornada</button>
+            </div>
+
+        </div>
+
+    </div>
 </div>
