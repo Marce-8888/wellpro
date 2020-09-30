@@ -1,26 +1,27 @@
 <div class="container-flex">
+  <div class="ctn-nav">
   <nav class="navbar navbar-expand-lg navbar-light mt-2">
     <a class="navbar-brand" href="#"></a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav container-fluid d-flex justify-content-around">
         <li class="nav-item ">
-          <div class="incon">
+          <div class="incon" routerLink='/home'>
             <div class="ctn-img-icon"><img src="../../../assets/IMG/Menu/Inicio.png"  style="width: 30px;"  alt=""></div>
-            <a class="nav-link text-white font-weight-bold" routerLink='/home'>Inicio</a>
+            <a class="nav-link text-white font-weight-bold" >Inicio</a>
           </div>
         </li>
         <li class="nav-item">
-          <div class="incon">
+          <div class="incon" routerLink='/planification'>
             <div class="ctn-img-icon"><img src="../../../assets/IMG/Menu/Planificacion.png"  style="width: 30px;"  alt=""></div>
-            <a class="nav-link text-white font-weight-bold" routerLink='/planification'>Planificación</a>
+            <a class="nav-link text-white font-weight-bold">Planificación</a>
           </div>
         </li>
         <li class="nav-item">
-          <div class="incon">
+          <div class="incon" data-toggle="modal" data-target="#modalAyuda">
             <div class="ctn-img-icon"><img src="../../../assets/IMG/Menu/ayuda.png" style="width: 35px;" alt=""></div>
             
             <!-- Button trigger modal -->
-            <a  class="nav-link text-white font-weight-bold" href="#" data-toggle="modal" data-target="#modalAyuda">
+            <a  class="nav-link text-white font-weight-bold" >
               Ayuda
             </a>
 
@@ -56,4 +57,5 @@
       </ul>
     </div>
   </nav>
+</div>
 </div>
