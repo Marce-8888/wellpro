@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     },
     {
       "img":"../../../assets/IMG/Home/Fecha.png",
-      "text":"Responder las estrategias que usaste en el chech out"
+      "text":"Responder las estrategias que usaste en el check out"
     },
     {
       "img":"../../../assets/IMG/Home/Corazon.png",
@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
     },
     {
       "img":"3.000 wellys",
-      "text":"Responder las estrategias que usaste en el chech out"
+      "text":"Responder las estrategias que usaste en el check out"
     }
   ]
 
@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
   infoTeam: Array<{}> = [
     {
       "img":"../../../assets/IMG/Home/team1.png",
-      "name":"Super Reasercher",
+      "name":"Super Researcher",
       "text":"Líder",
       "num":"45%",
       "progress":45
@@ -64,7 +64,7 @@ export class HomeComponent implements OnInit {
     },
     {
       "img":"../../../assets/IMG/Home/team4.png",
-      "name":"Power Reasercher",
+      "name":"Power Researcher",
       "text":"Tarea: Encuestar a usuario de buses",
       "num":"45%",
       "progress":90
