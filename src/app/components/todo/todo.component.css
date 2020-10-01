@@ -473,50 +473,5 @@ p {
   *{
     font-size: 0.6rem;
   }
-
-  /* .ctn-challenge{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .ctn-pointsandtime {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .ctn-challenge {
-    height: auto;
-    padding-top:15px;
-  }
-
-  .points{
-    width: 100%;
-  }
-
-  .time {
-    width: 100%;
-  }
-
-  .ctn-image1 img {
-    width: 50px;
-  }
-
-  .ctn-dates {
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-
-  .ctn-calendar1 {
-    height: 30%;
-  }
-
-  .ctn-image5 img{
-    width: 30px;
-  }
-
-  .reunion img {
-    width: 30px;
-  } */
 }
 
