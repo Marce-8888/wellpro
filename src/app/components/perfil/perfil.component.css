@@ -492,6 +492,10 @@ button:focus{
     text-align: center;
 }
 
+.ctn-text-bajada h4{
+    margin: 0;
+}
+
 .ctn-memojies{
     display: flex;
     flex-direction: column;
@@ -537,12 +541,17 @@ button:focus{
 .animo-img img{
     width: 65%;
     transition: 0.3s;
+    border: #D5E9FE;
+    border-style: solid;
+    border-radius: 50px;
     cursor: pointer;
 }
 
 .animo-img img:hover{
-    width: 70%;
-    transition: 0.3s;
+    border: #EBB908;
+    border-style: solid;
+    border-radius: 50px;
+    transition: 0.125s;
 }
 
 .ctn-bajada-checkin{
