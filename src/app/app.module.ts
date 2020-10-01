@@ -27,8 +27,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatExpansionModule} from '@angular/material/expansion';
 
-
-
+import { CountdownModule } from 'ngx-countdown';
 
 const route: Routes = [
   {
@@ -91,7 +90,8 @@ const route: Routes = [
     MatIconModule,
     MatCheckboxModule,
     FormsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    CountdownModule
   ],
   providers: [
     MatDatepickerModule,
