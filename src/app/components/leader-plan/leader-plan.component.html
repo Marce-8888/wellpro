@@ -91,3 +91,85 @@
 
   </div>
 </div>
+
+<div class="ctn-planification">
+  <div class="meeting">
+    <div class="ctn-image5">
+      <img src="../../../assets/IMG/planification/semana.png" alt="" />
+    </div>
+    <div class="txt5">
+      <h4>Planificación de reuniones</h4>
+    </div>
+  </div>
+
+  <div class="ctn-image6">
+    <img src="../../../assets/IMG/dropdown.png" alt="" />
+  </div>
+
+  <div class="week">
+    <div class="week1">
+      <p>Semana del</p>
+      <h4>28 de sept. al 2 de octubre</h4>
+    </div>
+
+    <div class="week2">
+      <div class="ctn-image7">
+        <img src="../../../assets//IMG/semana.png" alt="" />
+      </div>
+      <p>Progreso semanal</p>
+    </div>
+  </div>
+
+  <!-- <div class="days-week">
+          <div class="ctn-days" *ngFor="let day of days">
+            <div class="days">
+              <div class="text-day">
+                <h3>{{day}}</h3>
+              </div>
+              <div class="dropdown-img">
+                <img src="../../../assets/IMG/planification/dropdown.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div> -->
+
+  <div class="days-week">
+    <mat-accordion *ngFor="let day of days">
+      <mat-expansion-panel
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <h3>{{ day }}</h3>
+          </mat-panel-title>
+          <mat-panel-description>
+            <!-- Currently I am {{panelOpenState ? 'open' : 'closed'}} -->
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <mat-selection-list labelPosition="before" #shoes>
+          <mat-list-option *ngFor="let shoe of typesOfShoes">
+            {{ shoe }}
+          </mat-list-option>
+        </mat-selection-list>
+
+        <p>Tareas realizadas: {{ shoes.selectedOptions.selected.length }}</p>
+
+        <div class="team-bar">
+          <div class="ctn-bar">
+            <div
+              [ngStyle]="{
+                'width.%': shoes.selectedOptions.selected.length * 20
+              }"
+              class="progress"
+            ></div>
+          </div>
+
+          <div class="ctn-bar-num">
+            <h4>{{ shoes.selectedOptions.selected.length * 20 }}%</h4>
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

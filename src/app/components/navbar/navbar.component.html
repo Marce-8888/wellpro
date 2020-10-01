@@ -131,8 +131,14 @@
 <div class="bg-checkin" *ngIf="showCheckout">
   <div class="modal-checkin">
       <div class="ctn-title-checkin">
+        <div class="title">
           <h2>¡Hola Ale Power!</h2>
+        </div>
+        <div class="ctn-close" (click)="showCheckout=!showCheckout">
+          <i class="fas fa-times"></i>
+        </div>
       </div>
+      
 
       <div class="ctn-memojies">
           <div class="ctn-how">
@@ -182,7 +188,7 @@
           </div>
           <div class="ctn-btn-bajada">
               <button (click)="showCheckout=!showCheckout">Terminar jornada</button>
-              <img src="../../../assets/IMG/Perfil/Logo.png" width="128px">
+              <img src="../../../assets/IMG/Perfil/Logo.png">
           </div>
 
       </div>

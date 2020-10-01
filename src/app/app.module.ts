@@ -73,7 +73,7 @@ const route: Routes = [
     TodoComponent,
     NavbarComponent,
     LeaderHomeComponent,
-    LeaderPlanComponent,
+    LeaderPlanComponent
   ],
   imports: [
     BrowserModule,
