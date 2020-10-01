@@ -30,6 +30,7 @@ var todo_component_1 = require("./components/todo/todo.component");
 var navbar_component_1 = require("./components/navbar/navbar.component");
 var leader_home_component_1 = require("./components/leader-home/leader-home.component");
 var leader_plan_component_1 = require("./components/leader-plan/leader-plan.component");
+var ngx_countdown_1 = require("ngx-countdown");
 var route = [
     {
         path: '',
@@ -94,7 +95,8 @@ var AppModule = /** @class */ (function () {
                 icon_1.MatIconModule,
                 checkbox_1.MatCheckboxModule,
                 forms_1.FormsModule,
-                expansion_1.MatExpansionModule
+                expansion_1.MatExpansionModule,
+                ngx_countdown_1.CountdownModule
             ],
             providers: [
                 datepicker_1.MatDatepickerModule,

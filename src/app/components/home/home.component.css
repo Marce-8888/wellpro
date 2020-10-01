@@ -6,9 +6,10 @@
 .bg-home{
   background-color:#EFF2FF;
   width: 100%;
-  height: 1975px;
+  height: auto;
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 150px;
 }
 
 .ctn-home{
@@ -16,7 +17,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 460px;
+  margin-bottom: 0px;
 }
 
 .ctn-challenge{
@@ -71,6 +72,7 @@
 
 .ctn-team-img{
   width: 10%;
+  margin-right: 40px;
 }
 
 .ctn-team-img img{
@@ -94,22 +96,22 @@ button:focus{
 
 
 h1{
-  font-size: 36px;
+  font-size: 1.5em;
   font-weight:700;
 }
 
 h2{
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight:400;
 }
 
 h3{
-  font-size: 24px;
+  font-size: 1.25em;
   font-weight:400;
 }
 
 h4{
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight:700;
 }
 
@@ -151,11 +153,6 @@ h4{
   width: 30px;
 }
 
-.teamS{
-  display: flex;
-  width: 100%;
-}
-
 .ctn-text1{
   display: flex;
 }
@@ -173,6 +170,11 @@ h4{
   margin-top:30px;
 }
 
+.ctn-text-wellys p{
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .gift{
   display: flex;
 }
@@ -188,6 +190,7 @@ h4{
   width: 80%;
   display: flex;
   flex-direction: column;
+  padding:10px;
 }
 
 .ctn-img-prize1 img{
@@ -199,13 +202,9 @@ h4{
   display: flex;
 }
 
-/* .title img{
-  Width:70px;
-  Height:46px;
-  margin-right: 10px;
-} */
-
 .teamS{
+  display: flex;
+  width: 100%;
   margin:10px;
 }
 
@@ -247,10 +246,67 @@ h4{
 .progress{
   height: 22px;
   background: #52C9F3;
-  border-radius: 32px 0 0 32px;
+  border-radius:32px 0 0 32px;
 }
 
-.btn-blue{
-  width: 100%;
-  text-align: center;
+.ctn-btn{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.btn1{
+  width: 200px;
+  margin:15px;
+  background: #56A6FB;
+  border-radius: 25px;
+}
+
+.btn2{
+  width: 200px;
+  margin:15px;
+  background: #D5E9FE;
+  border: 1px solid #067BF7;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: #067BF7;
+}
+
+@media (max-width: 980px) {
+  *{
+    font-size: 0.8rem;
+  }
+  .ctn-challenge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    padding:10px;
+    text-align: center;
+  }
+
+  .ctn-rules{
+    width: 70%;
+  }
+
+  .ctn-prize{
+    width: 70%;
+    padding-bottom: 50px;
+  }
+
+  .teamS{
+    display: flex;
+    width: 100%;
+    margin:10px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .ctn-team-img{
+    margin-right: 40px;
+  }
 }

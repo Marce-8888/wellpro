@@ -24,6 +24,7 @@ import { TodoComponent } from './components/todo/todo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LeaderHomeComponent } from './components/leader-home/leader-home.component';
 import { LeaderPlanComponent } from './components/leader-plan/leader-plan.component';
+import { CountdownModule } from 'ngx-countdown';
 
 
 const route: Routes = [
@@ -87,7 +88,8 @@ const route: Routes = [
     MatIconModule,
     MatCheckboxModule,
     FormsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    CountdownModule
   ],
   providers: [
     MatDatepickerModule,
