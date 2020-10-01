@@ -79,7 +79,7 @@ var AppModule = /** @class */ (function () {
                 todo_component_1.TodoComponent,
                 navbar_component_1.NavbarComponent,
                 leader_home_component_1.LeaderHomeComponent,
-                leader_plan_component_1.LeaderPlanComponent,
+                leader_plan_component_1.LeaderPlanComponent
             ],
             imports: [
                 platform_browser_1.BrowserModule,
