@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PerfilComponent implements OnInit {
 
   showModal:boolean=false;
+  showCheckin:boolean=true;
 
   info: any;
   infoChat: Array<{}> = [

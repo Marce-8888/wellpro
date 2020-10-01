@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wellpro-b554a": {
+      "hosting": {
+        "wellpro": [
+          "wellpro-b554a"
+        ]
+      }
+    }
+  }
+}
