@@ -199,11 +199,21 @@
 
 <div class="bg-checkin" *ngIf="showCheckin">
     <div class="modal-checkin">
+
         <div class="ctn-title-checkin">
-            <h2>Hola Ale Power</h2>
-            <h4>Bienvenida a</h4>
-            <img src="../../../assets/IMG/Perfil/Logo.png" width="156px">
+          <div class="title">
+            <h2>¡Hola Ale Power!</h2>
+          </div>
+          <div class="ctn-close" (click)="showCheckin=!showCheckin">
+            <i class="fas fa-times"></i>
+          </div>
         </div>
+
+        <div class="ctn-logo-img">
+          <img src="../../../assets/IMG/Perfil/Logo.png" width="156px">
+        </div>
+
+
         <div class="ctn-memojies">
             <div class="ctn-how">
                 <h3>¿Cómo te sientes hoy?</h3>

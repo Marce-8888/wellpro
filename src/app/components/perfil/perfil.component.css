@@ -9,7 +9,7 @@ h1{
   }
 
   h2{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 400;
     margin: 0 0 0.3em 0;
   }
@@ -56,18 +56,20 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 8.125em;
+    height: auto;
     background-color: #ffffff;
     border-radius: 0px 50px 0px 0px;
+
 }
 
 .img-logo{
     justify-content: center;
     display: flex;
+    margin:25px;
 }
 
 .img-logo img{
-    width: 6rem;
+    width: 4rem;
 }
 
 .ctn-info{
@@ -308,7 +310,7 @@ button:focus{
     left: 0;
     top: 0;
     width: 100%;
-    height: 123.8em;
+    height: 100%;
     z-index: 1;
     background-color: #00000023;
 }
@@ -502,16 +504,16 @@ button:focus{
 }
 
 .modal-checkin{
-    display: flex;
-    flex-direction: column;
-    width: 51.125rem;
-    height: 44.8125rem;
-    background-color: #ffffff;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.13);
-    margin-top: 9em;
+  display: flex;
+  flex-direction: column;
+  width: 45em;
+  height:37em;
+  background-color: #ffffff;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.13);
+  margin-top: 2em;
 }
 
 .ctn-title-checkin{
@@ -521,6 +523,16 @@ button:focus{
     justify-content: center;
     align-items: center;
     margin: 1em 0;
+}
+
+.ctn-logo-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.ctn-logo-img img{
+  width: 20%;
 }
 
 .bg-checkin h4, .bg-checkin h2{
@@ -536,7 +548,7 @@ button:focus{
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 12.5rem;
+    height: 14em;
     background-color: #D5E9FE;
     border-radius: 20px;
     margin: 1em 0;
@@ -635,8 +647,88 @@ button:focus{
     transition: 0.5s;
 }
 
+.ctn-title-checkin{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5em 0 1em 0;
+}
+
+.title{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.bg-checkin p, .bg-checkin h2{
+  color: #343434;
+  text-align: center;
+  margin: 0;
+}
+
+.ctn-close{
+  width: 2em;
+  height: 2em;
+  background-color: #E3E3E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: #343434;
+}
+
+.ctn-close i{
+  font-size: 1.2em;
+}
+
+
+
+
 @media (max-width: 980px) {
   *{
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  * {
+      font-size: 0.8rem;
+  }
+  .modal-checkin{
+    width: 50em;
+    height: 42em;
+    margin-top: 3em;
+  }
+  .animo-img img{
+    width: 80%;
+  }
+  .ctn-btn-bajada img{
+    display: none;
+  }
+  h3{
+    font-size: 1.3em;
+  }
+  .animo-img{
+    margin-bottom: 0;
+  }
+  .ctn-animo{
+    margin: 0 0 1em 0;
+  }
+  .ctn-memojies{
+    margin: 0.5em 0;
+  }
+  .ctn-check{
+    margin: 0 0 0.5em 0;
+  }
+  .ctn-btn-bajada button{
+    width: 21em;
+    height: 2.8em;
+    margin: 1em 0 1.5em 0;
+    font-size: 16px;
+  }
+  .ctn-text-bajada i{
+    font-size: 2em;
   }
 }
