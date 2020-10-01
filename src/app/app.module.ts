@@ -12,6 +12,8 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { TodoComponent } from './components/todo/todo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LeaderHomeComponent } from './components/leader-home/leader-home.component';
+import { LeaderPlanComponent } from './components/leader-plan/leader-plan.component';
+
 import { from } from 'rxjs';
 
 
@@ -23,6 +25,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 
 
@@ -51,6 +55,14 @@ const route: Routes = [
   {
     path: 'navbar',
     component: NavbarComponent
+  },
+  {
+    path: 'leader-home',
+    component: LeaderHomeComponent
+  },
+  {
+    path: 'leader-plan',
+    component: LeaderPlanComponent
   }
 ];
 
@@ -63,7 +75,8 @@ const route: Routes = [
     PerfilComponent,
     TodoComponent,
     NavbarComponent,
-    LeaderHomeComponent
+    LeaderHomeComponent,
+    LeaderPlanComponent,
   ],
   imports: [
     BrowserModule,
@@ -77,7 +90,8 @@ const route: Routes = [
     MatChipsModule,
     MatIconModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    MatExpansionModule
   ],
   providers: [
     MatDatepickerModule,
