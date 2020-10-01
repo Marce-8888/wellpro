@@ -11,11 +11,16 @@ var platform_browser_1 = require("@angular/platform-browser");
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var animations_1 = require("@angular/platform-browser/animations");
+var forms_1 = require("@angular/forms");
 var slide_toggle_1 = require("@angular/material/slide-toggle");
 var datepicker_1 = require("@angular/material/datepicker");
 var core_2 = require("@angular/material/core");
 var input_1 = require("@angular/material/input");
 var list_1 = require("@angular/material/list");
+var chips_1 = require("@angular/material/chips");
+var icon_1 = require("@angular/material/icon");
+var checkbox_1 = require("@angular/material/checkbox");
+var expansion_1 = require("@angular/material/expansion");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./components/home/home.component");
 var login_component_1 = require("./components/login/login.component");
@@ -84,7 +89,12 @@ var AppModule = /** @class */ (function () {
                 datepicker_1.MatDatepickerModule,
                 core_2.MatNativeDateModule,
                 input_1.MatInputModule,
-                list_1.MatListModule
+                list_1.MatListModule,
+                chips_1.MatChipsModule,
+                icon_1.MatIconModule,
+                checkbox_1.MatCheckboxModule,
+                forms_1.FormsModule,
+                expansion_1.MatExpansionModule
             ],
             providers: [
                 datepicker_1.MatDatepickerModule,
