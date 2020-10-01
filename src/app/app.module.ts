@@ -19,7 +19,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { from } from 'rxjs';
 import { LeaderHomeComponent } from './components/leader-home/leader-home.component';
-
+import { LeaderPlanComponent } from './components/leader-plan/leader-plan.component';
 
 
 const route: Routes = [
@@ -47,6 +47,14 @@ const route: Routes = [
   {
     path: 'navbar',
     component: NavbarComponent
+  },
+  {
+    path: 'leader-home',
+    component: LeaderHomeComponent
+  },
+  {
+    path: 'leader-plan',
+    component: LeaderPlanComponent
   }
 ];
 
@@ -59,7 +67,8 @@ const route: Routes = [
     PerfilComponent,
     TodoComponent,
     NavbarComponent,
-    LeaderHomeComponent
+    LeaderHomeComponent,
+    LeaderPlanComponent,
   ],
   imports: [
     BrowserModule,
