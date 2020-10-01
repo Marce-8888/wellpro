@@ -25,24 +25,117 @@
   background: rgb(255, 255, 255);
   border-radius: 30px;
   width: 70%;
-  height: 167px;
+  height: 10%;
   margin-top: 200px;
   display: flex;
   align-items: center;
 }
 
+.ctn-ctxt {
+width: 30%;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.ctn-image1 {
+width: 100%;
+}
+
+.ctn-image1 img {
+width: 70px;
+}
+
+.ctn-txtandimages {
+width: 70%;
+height: 65%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0 10px;
+}
+
+.ctn-pointsandtime {
+width: 60%;
+display: flex;
+align-content: center;
+}
+
+.ctn-points {
+width: 100%;
+display: flex;
+background: cyan;
+}
+
+.points{
+width: 50%;
+display: flex;
+}
+
+.txt2 p {
+font-style: normal;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 10px;
+}
+
+.time {
+width: 50%;
+display: flex;
+flex-direction: row;
+}
+
+.ctn-image3 img {
+width: 30px;
+height: 30px;
+left: 800px;
+top: 221px;
+}
+
+.txt3 p {
+font-style: normal;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 10px;
+}
+
 .ctn-calendar1 {
-  margin-top: 0;
+  margin-top: 180px;
   width: 70%;
-  height: 300px;
+  height: 20%;
   border-radius: 30px;
   background: rgb(255, 255, 255);
-  padding: 30px
+  padding: 30px;
+  margin-left: 250px
+}
+
+.ctn-title {
+display: flex;
+align-items: center;
+align-content: center;
+height: auto;
+}
+
+.reunion {
+width: 10%;
+display: flex;
+align-items: center;
+}
+
+.reunion img {
+width: 50px;
+}
+
+.title{
+width: 90%;
+padding-left: 10px;
 }
 
 .ctn-dates {
   width: 100%;
-  height: 290px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -52,150 +145,82 @@
   width: 60%;
 }
 
-.ctn-calen {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-}
-
 .ctn-info-dates {
-  display: flex;
+display: flex;
 }
 
 .ctn-status-dates {
-  width: 10%;
-  display: flex;
-  justify-content: center;
+width: 10%;
+display: flex;
+justify-content: center;
 }
-
-
-/*.datepickerS{
-width:160px;
- height: 70px;
-border: #5A78E6 solid 3px;
-border-radius: 10px;
-}*/
 
 .circle-reunion {
-  width: 15px;
-  height: 15px;
-  background: #D1D1D1;
-  border-radius: 100px;
-}
-
-.circle-reunion-blue {
-  width: 15px;
-  height: 15px;
-  background: #10ADE4;
-  border-radius: 100px;
+width: 15px;
+height: 15px;
+background: #D1D1D1;
+border-radius: 100px;
 }
 
 .ctn-text-dates {
-  width: 60%;
+width: 60%;
 }
 
 .ctn-time-dates {
-  width: 30%;
+width: 30%;
 }
 
 .ctn-time-dates p {
-  font-weight: 400;
+font-weight: 400;
 }
 
-.ctn-title {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  height: auto;
+.circle-reunion-blue {
+width: 15px;
+height: 15px;
+background: #10ADE4;
+border-radius: 100px;
 }
 
-.title h4 {
-  margin-top: 15px;
-}
-
-.reunion {
-  width: 12%;
-}
-
-.reunion img {
-  width: 50px;
-}
-
-.ctn-ctxt {
-  width: 14%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.ctn-txtandimages {
-  width: 56%;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10px;
-}
-
-.ctn-count {
-  width: 30%;
-  height: 45%;
-}
-
-.ctn-pointsandtime {
-  width: 80%;
-  display: flex;
-  align-content: center;
-}
-
-.points {
-  width: 100%;
-  display: flex;
-}
-
-.time {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+.ctn-calen {
+width: 40%;
+display: flex;
+justify-content: center;
 }
 
 .ctn-planification {
-  width: 70%;
-  background: #FFFFFF;
-  border-radius: 30px;
-  padding: 30px;
+width: 50%;
+height: auto;
+background: #FFFFFF;
+border-radius: 30px;
+padding: 30px;
+margin-left: 600px
 }
 
 .ctn-planification h4{
 margin-top: 15px;
 }
 
-.ctn-image1 {
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+.title h4 {
+  margin-top: 15px;
 }
 
-.ctn-image1 img {
-  width: 70px;
+
+.ctn-circle{
+width: 40px;
+height: 40px;
+border-radius: 100px;
+background: rgb(255, 255, 255);
+border: rgb(116, 116, 116) solid 6px;
 }
 
-.ctn-image2 img {
+
+.points img {
   width: 31px;
   height: 32px;
   left: 573px;
   top: 220px;
 }
 
-.ctn-image3 img {
-  width: 30px;
-  height: 30px;
-  left: 800px;
-  top: 221px;
-}
 
 .ctn-image4 img {
   width: 227px;
@@ -205,36 +230,49 @@ margin-top: 15px;
 }
 
 .ctn-image5{
-width: 12%;
+width: 10%;
+display: flex;
+align-items: center;
 }
 
 .ctn-image5 img{
 width: 50px;
 }
 
+.txt5{
+width: 90%;
+padding-left: 10px;
+}
+
 h1 {
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 400;
 }
 
 h3 {
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1em;
+  margin:0px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
 }
 
 p {
   font-weight: 700;
+  font-size: 1em;
+}
+
+.text1{
+display: flex;
+flex-wrap: wrap;
 }
 
 .txt1 p {
@@ -243,19 +281,9 @@ p {
   font-weight: normal;
 }
 
-.txt2 p {
-  font-style: normal;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-top: 10px;
-}
 
-.txt3 p {
-  font-style: normal;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-top: 10px;
-}
+
+
 
 .txt4 p {
   font-style: normal;
@@ -267,7 +295,53 @@ p {
 }
 
 .week {
-  background: blue;
+  display: flex;
+}
+
+.week1 {
+width: 50%;
+}
+
+.week2{
+width: 50%;
+}
+
+
+.ctn-days {
+border-radius: 20px;
+width: 100%;
+display: flex;
+align-content: center;
+flex-direction: column;
+
+}
+
+.days-week{
+margin-top:40px;
+}
+
+.days{
+height: 52px;
+margin:15px;
+background: #D6DDF9;
+border-radius: 20px;
+display: flex;
+align-items: center;
+padding-left: 20px;
+}
+
+.text-day{
+width:80%;
+}
+
+.dropdown-img{
+width: 20%;
+text-align: center;
+
+}
+
+.dropdown-img img{
+width: 20px;
 }
 
 .progress {
@@ -291,10 +365,6 @@ p {
   display: flex;
 }
 
-.team-bar h4 {
-  color: #2045D0;
-}
-
 .ctn-bar {
   height: 30px;
   width: 85%;
@@ -314,7 +384,133 @@ p {
   border-radius: 32px 0 0 32px;
 }
 
-.body-learder-plan {
-  margin-left: 213px;
-  margin-top: 112px;
+.planer{
+margin:50px;
+width: 80%;
 }
+
+@media (max-width: 980px) {
+*{
+  font-size: 0.8rem;
+}
+
+.ctn-image1 img {
+  width: 50px;
+}
+
+.ctn-dates {
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.ctn-calendar1 {
+  height: 30%;
+}
+
+.ctn-image5 img{
+  width: 30px;
+}
+
+.reunion img {
+  width: 30px;
+}
+
+.ctn-challenge{
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn-pointsandtime {
+  flex-direction: column;
+  width: 100%;
+}
+
+.ctn-challenge {
+  height: auto;
+  padding-top:15px;
+}
+
+.points{
+  width: 100%;
+}
+
+.time {
+  width: 100%;
+}
+
+.ctn-image1 img {
+  width: 50px;
+}
+
+.ctn-dates {
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.ctn-calendar1 {
+  height: 30%;
+}
+
+.ctn-image5 img{
+  width: 30px;
+}
+
+.reunion img {
+  width: 30px;
+}
+
+}
+
+@media (max-width: 450px) {
+*{
+  font-size: 0.6rem;
+}
+
+/* .ctn-challenge{
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn-pointsandtime {
+  flex-direction: column;
+  width: 100%;
+}
+
+.ctn-challenge {
+  height: auto;
+  padding-top:15px;
+}
+
+.points{
+  width: 100%;
+}
+
+.time {
+  width: 100%;
+}
+
+.ctn-image1 img {
+  width: 50px;
+}
+
+.ctn-dates {
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.ctn-calendar1 {
+  height: 30%;
+}
+
+.ctn-image5 img{
+  width: 30px;
+}
+
+.reunion img {
+  width: 30px;
+} */
+}
+
