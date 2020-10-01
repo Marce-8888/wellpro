@@ -165,27 +165,12 @@
                 </div>
             </div>
 
-            <div class="progress">
-                <div class="weekof">
-                    <div class="weekofthe">
-                        <p>Semana del</p>
-                    </div>
-                    <div class="september">
-                        <p>28 al 2 de octubre</p>
-                    </div>
+            <div class="days-week">
+              <div class="days" *ngFor="let day of days">
+                <div>
+                  {{day}}
                 </div>
-
-                <div class="wp">
-                    <div class="weeklyprogress">
-                        <p>Progreso Semanal</p>
-                    </div>
-                    <div class="bar">
-
-                    </div>
-                </div>
-
-                <div class="faceandpercentage">
-                </div>
+              </div>
             </div>
         </div>
 
@@ -193,10 +178,13 @@
 </div>
 
 
-<mat-selection-list #shoes>
-    <mat-list-option *ngFor="let shoe of typesOfShoes">
+<mat-selection-list labelPosition="before" #shoes>
+    <mat-list-option  *ngFor="let shoe of typesOfShoes" >
         {{shoe}}
     </mat-list-option>
+
+    <!-- <mat-checkbox *ngFor="let shoe of typesOfShoes" >{{ shoe }}</mat-checkbox> -->
+
 </mat-selection-list>
 
 <p>
@@ -212,3 +200,32 @@
         <h4>{{shoes.selectedOptions.selected.length*20}}%</h4>
     </div>
 </div>
+
+
+
+
+<!-- <div class="planer">
+    <mat-form-field>
+      <mat-label>Textarea</mat-label>
+      <textarea matInput [(ngModel)]='userValue'></textarea>
+    </mat-form-field>
+
+    <div *ngFor="let todo of toDoList">
+      <mat-checkbox indeterminate="true">{{ todo }}</mat-checkbox>
+    </div>
+
+    <button (click)="addTodo()">Agregar tarea</button>
+
+    <div class="team-bar">
+      <div class="ctn-bar">
+          <div [ngStyle]="{'width.%':toDoList}" class="progress"></div>
+      </div>
+
+      <div class="ctn-bar-num">
+          <h4>{{toDoList}}%</h4>
+      </div>
+    </div>
+</div> -->
+
+
+
