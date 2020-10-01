@@ -491,6 +491,16 @@ p {
 
   .reunion img {
     width: 30px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  *{
+    font-size: 0.6rem;
+  }
+}
+
   } */
 
 .ctn-countdown {
