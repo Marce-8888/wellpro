@@ -25,6 +25,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 
@@ -89,7 +90,8 @@ const route: Routes = [
     MatChipsModule,
     MatIconModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    MatExpansionModule
   ],
   providers: [
     MatDatepickerModule,
