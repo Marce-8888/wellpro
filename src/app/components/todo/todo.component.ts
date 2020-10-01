@@ -14,8 +14,8 @@ export interface Fruit {
 })
 export class TodoComponent implements OnInit {
 
-  panelOpenState = false;
-  userValue: string = "";
+
+  userValue = '';
   toDoList: string[] = [];
   // toDoList: Array<string> = [];
 
