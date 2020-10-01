@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilComponent implements OnInit {
 
+
   showModal:boolean=false;
   showCheckin:boolean=true;
 
@@ -38,7 +39,7 @@ export class PerfilComponent implements OnInit {
     }
   ];
 
-  
+
 
   constructor() { }
 
