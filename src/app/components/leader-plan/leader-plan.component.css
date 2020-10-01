@@ -1,0 +1,320 @@
+* {
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bg-home {
+  background-color: #EFF2FF;
+  width: 100%;
+  height: 1975px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ctn-home {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 460px;
+}
+
+.ctn-challenge {
+  border: 5px solid #EBB908;
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 70%;
+  height: 167px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.ctn-calendar1 {
+  margin-top: 0;
+  width: 70%;
+  height: 300px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  padding: 30px
+}
+
+.ctn-dates {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.cuadro1 {
+  width: 60%;
+}
+
+.ctn-calen {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.ctn-info-dates {
+  display: flex;
+}
+
+.ctn-status-dates {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*.datepickerS{
+width:160px;
+ height: 70px;
+border: #5A78E6 solid 3px;
+border-radius: 10px;
+}*/
+
+.circle-reunion {
+  width: 15px;
+  height: 15px;
+  background: #D1D1D1;
+  border-radius: 100px;
+}
+
+.circle-reunion-blue {
+  width: 15px;
+  height: 15px;
+  background: #10ADE4;
+  border-radius: 100px;
+}
+
+.ctn-text-dates {
+  width: 60%;
+}
+
+.ctn-time-dates {
+  width: 30%;
+}
+
+.ctn-time-dates p {
+  font-weight: 400;
+}
+
+.ctn-title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: auto;
+}
+
+.title h4 {
+  margin-top: 15px;
+}
+
+.reunion {
+  width: 12%;
+}
+
+.reunion img {
+  width: 50px;
+}
+
+.ctn-ctxt {
+  width: 14%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ctn-txtandimages {
+  width: 56%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.ctn-count {
+  width: 30%;
+  height: 45%;
+}
+
+.ctn-pointsandtime {
+  width: 80%;
+  display: flex;
+  align-content: center;
+}
+
+.points {
+  width: 100%;
+  display: flex;
+}
+
+.time {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.ctn-planification {
+  width: 70%;
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.ctn-planification h4{
+margin-top: 15px;
+}
+
+.ctn-image1 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ctn-image1 img {
+  width: 70px;
+}
+
+.ctn-image2 img {
+  width: 31px;
+  height: 32px;
+  left: 573px;
+  top: 220px;
+}
+
+.ctn-image3 img {
+  width: 30px;
+  height: 30px;
+  left: 800px;
+  top: 221px;
+}
+
+.ctn-image4 img {
+  width: 227px;
+  height: 51px;
+  left: 1080px;
+  top: 202px;
+}
+
+.ctn-image5{
+width: 12%;
+}
+
+.ctn-image5 img{
+width: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 700;
+}
+
+.txt1 p {
+  width: 417px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.txt2 p {
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.txt3 p {
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.txt4 p {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.meeting {
+  display: flex;
+}
+
+.week {
+  background: blue;
+}
+
+.progress {
+  background: green;
+}
+
+.wp {
+  background: maroon;
+}
+
+.faceandpercentage {
+  background: magenta;
+}
+
+.txt4 {
+  margin-left: 10px;
+}
+
+.team-bar {
+  width: 44%;
+  display: flex;
+}
+
+.team-bar h4 {
+  color: #2045D0;
+}
+
+.ctn-bar {
+  height: 30px;
+  width: 85%;
+  border: 4px solid #5A78E6;
+  box-sizing: border-box;
+  border-radius: 32px;
+}
+
+.ctn-bar-num {
+  width: 15%;
+  text-align: center;
+}
+
+.progress {
+  height: 22px;
+  background: #52C9F3;
+  border-radius: 32px 0 0 32px;
+}
+
+.body-learder-plan {
+  margin-left: 213px;
+  margin-top: 112px;
+}
