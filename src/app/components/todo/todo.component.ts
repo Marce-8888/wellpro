@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import {MatChipInputEvent} from '@angular/material/chips';
-// import {COMMA, ENTER} from '@angular/cdk/keycodes';
-
 
 export interface Fruit {
   name: string;
@@ -14,10 +11,18 @@ export interface Fruit {
 })
 export class TodoComponent implements OnInit {
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
   panelOpenState = false;
-  userValue: string = "";
+>>>>>>> 2d704a7c233c63ebb7da39159a20f1c3dff14fe4
+=======
+  panelOpenState = false;
+>>>>>>> 61f00afcc4677c2fc3b225daa98e8f76ea01f517
+  userValue = '';
   toDoList: string[] = [];
-  // toDoList: Array<string> = [];
 
   typesOfShoes: string[] = ['Contactar con el grupo 4 de encuestados para ver si respondieron o no.', 'Hacer seguimiento del grupo 5', 'Recoger resultados del grupo 1 de encuestados', 'Enviar las encuestas que faltan', 'Contactar con equipo para feedback'];
 
@@ -30,9 +35,5 @@ export class TodoComponent implements OnInit {
   addTodo() {
    this.toDoList.push(this.userValue);
   }
-
-  // toggle(event){
-  //   console.log(event.source.value, 'holi');
-  // }
 
 }
