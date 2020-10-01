@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import {MatChipInputEvent} from '@angular/material/chips';
-// import {COMMA, ENTER} from '@angular/cdk/keycodes';
-
 
 export interface Fruit {
   name: string;
